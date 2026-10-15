@@ -3,19 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Perulangan FOREACH</title>
+    <title>Perulangan FOR</title>
 </head>
 <body>
-     <script type="text/javascript">
+      <script type="text/javascript">
          
-        document.write('<h2>Daftar Siswa</h2>');
+        for( var i=1; i<=10; i++) {
  
-        var siswa = ['ani', 'budi', 'sigit', 'faris'];
-         
-        siswa.forEach(function(i){
-            document.write('<p>'+i+'</p>');
-        });     
+            document.write('<p>Angka ke - '+i+'</p>');
+ 
+        } 
  
     </script>
+ 
 </body>
 </html>
