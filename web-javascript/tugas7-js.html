@@ -3,18 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Membuat Fungsi</title>
+    <title>Membuat Fungsi dengan Parameter</title>
 </head>
 <body>
-     <script type="text/javascript">
-         
-        //fungsi salam
-        function salam() {
-            document.write('<h2>Hallo Aku Fensa</h2>');
+    <script type="text/javascript">
+ 
+        //fungsi dengan parameter
+        function tambah(a, b) {
+            var c = a+b;
+            return c
         }
  
-        //memanggil fungsi
-        salam();
+        var penjumlahan=tambah(12,30);
+        document.write('hasil dari penjumlahan 12 dan 30 adalah '+penjumlahan);
  
     </script>
 </body>
