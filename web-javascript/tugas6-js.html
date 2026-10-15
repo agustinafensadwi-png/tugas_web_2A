@@ -6,7 +6,7 @@
     <title>Menampilkan isi Array</title>
 </head>
 <body>
-     <script type="text/javascript">
+      <script type="text/javascript">
         // membuat Array
         var siswa = ['ani','budi','sigit','faris'];
         console.log(siswa); //menampilkan semua data
@@ -14,12 +14,10 @@
         var harga = [1000, 2000, 5000, 3000];
         console.log(harga[3]); //menampikan data ke - 3
  
-        //merubah isi Array
-        siswa[4]='anton';
-        console.log(siswa);
- 
-        harga[1]=1500;
-        console.log(harga);
+        //menampilkan array dengan perulangan
+        siswa.forEach(function(data){
+            document.write('Nama Siswa adalah '+data+'<br>');
+        });
  
     </script>
 </body>
