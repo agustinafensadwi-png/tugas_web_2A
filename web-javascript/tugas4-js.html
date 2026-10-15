@@ -3,17 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Percabangan IF</title>
+    <title>Percabangan IF-ELSE</title>
 </head>
 <body>
     <script type="text/javascript">
-        var password = prompt('Masukan Password Anda');
+        var nilai = prompt('Masukan Nilai Anda');
  
-        if (password == 'admin123') {
-            document.write('<h3>Selamat Datang Admin</h3>');
+        if (nilai > 85) {
+            document.write('<h3>Nilai A</h3>');
+        } else if(nilai >= 75) {
+            document.write('<h3>Nilai B</h3>');
         } else {
-            document.write('<h3>Maaf Password Salah</h3>');
+            document.write('<h3>Nilai C</h3>');
         }
-    </script
+    </script>
+    </script>
 </body>
 </html>
