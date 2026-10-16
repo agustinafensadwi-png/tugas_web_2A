@@ -3,12 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Menampilkan isi Array</title>
+    <title>Penggunaan Array</title>
 </head>
 <body>
-      <script type="text/javascript">
+    <!-- MEMBUAT ARRAY -->
+<script type="text/javascript">
         // membuat Array
-        var siswa = ['ani','budi','sigit','faris'];
+        var siswa = ['Fensa','Lia','Novi','Ika'];
+        console.log(siswa); 
+    </script>
+
+    <!-- MENAMPILKAN ISI ARRAY --> 
+<script type="text/javascript">
+        // membuat Array
+        var siswa = ['Fensa','Lia','Novi','Ika'];
+        console.log(siswa); //menampilkan semua data
+ 
+        var harga = [1000, 2000, 5000, 3000];
+        console.log(harga[3]); //menampikan data ke - 3
+ 
+        //merubah isi Array
+        siswa[4]='Nana';
+        console.log(siswa);
+ 
+        harga[1]=1500;
+        console.log(harga);
+ 
+    </script>
+
+    <!-- MENAMPILKAN DATA ARRAY MENGGUNAKAN PERULANGAN FOREACH --> 
+<script type="text/javascript">
+        // membuat Array
+        var siswa = ['Fensa','Lia','Novi','Ika'];
         console.log(siswa); //menampilkan semua data
  
         var harga = [1000, 2000, 5000, 3000];
