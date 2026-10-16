@@ -3,14 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Perulangan FOREACH</title>
+    <title>Perulangan Javascript</title>
 </head>
 <body>
-     <script type="text/javascript">
+    <!-- PERULANGAN FOR --> 
+<script type="text/javascript">
+         
+        for( var i=1; i<=10; i++) {
+ 
+            document.write('<p>Angka ke - '+i+'</p>');
+ 
+        } 
+ 
+    </script>
+
+    <!-- PERULANGAN WHILE --> 
+<script type="text/javascript">
+        var a=0;
+ 
+        while(a<10) {
+ 
+            document.write('<p>Tulisan ini diulang 10 kali</p>');
+ 
+            a+=1;
+        }
+    </script>
+
+    <!-- PERULANGAN DO/WHILE --> 
+<script type="text/javascript">
+        var a=0;
+ 
+        do {
+ 
+            document.write('<p>Angka ke - '+a+'</p>');
+ 
+            a+=1;
+ 
+        } while(a<10);
+    </script>
+
+    <!-- PERULANGAN FOREACH --> 
+<script type="text/javascript">
          
         document.write('<h2>Daftar Siswa</h2>');
  
-        var siswa = ['ani', 'budi', 'sigit', 'faris'];
+        var siswa = ['Fensa', 'Lia', 'Novi', 'Ika'];
          
         siswa.forEach(function(i){
             document.write('<p>'+i+'</p>');
