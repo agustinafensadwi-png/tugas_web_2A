@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar DOM</title>
+</head>
+<body>
+     <h1 id="judul">Menjaga Kebersihan Lingkungan</h1>
+ 
+    <p>Menjaga kebersihan lingkungan merupakan tanggung jawab setiap orang. Lingkungan yang bersih dapat membuat suasana menjadi nyaman, sehat, dan terhindar dari berbagai penyakit.</p>
+ 
+    <p>Untuk menjaga kebersihan lingkungan, kita dapat melakukan beberapa kegiatan sederhana dalam kehidupan sehari-hari. Kebiasaan tersebut perlu dilakukan secara rutin agar lingkungan tetap bersih dan asri.</p>
+ 
+    <h3 class="daftar">Cara Menjaga Kebersihan Lingkungan</h3>
+    <ul>
+        <li>Membuang sampah pada tempatnya</li>
+        <li>Menyapu halaman rumah</li>
+        <li>Membersihkan selokan</li>
+        <li>Melakukan kerja bakti</li>
+        <li>Mendaur ulang sampah</li>
+    </ul>
+
+    <script>
+        let judul=document.getElementById('judul');
+        console.log(judul);
+</script>
+
+<script>
+        let p=document.getElementsByTagName('p');
+        console.log(p);
+</script>
+
+<script>
+        let daftar=document.getElementsByClassName('daftar');
+        console.log(daftar);
+</script>
+
+<script>
+        let title=document.querySelector('#judul');
+        console.log(title);
+</script>
+
+<script>
+        let list=document.querySelectorAll('li');
+        console.log(list);
+</script>
+</body>
+</html>
